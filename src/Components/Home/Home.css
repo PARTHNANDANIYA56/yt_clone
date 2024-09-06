@@ -1,0 +1,64 @@
+.container {
+    background: var(--container-bg-color);
+    padding: 20px 2% 20px 17%;
+}
+
+.large-container {
+    padding-left: 7%;
+}
+
+@media (width<=900px) {
+
+    .large-container,
+    .container {
+        padding: 20px 2% 20px 10%;
+    }
+}
+
+@media (width<=672px) {
+
+    .large-container,
+    .container {
+        padding: 20px 2% 20px 12%;
+    }
+}
+
+@media (width<=578px) {
+
+    .large-container,
+    .container {
+        padding: 20px 2% 20px 13%;
+    }
+}
+
+@media (width<=500px) {
+
+    .large-container,
+    .container {
+        padding: 20px 2% 20px 14%;
+    }
+}
+
+@media (width<=425px) {
+
+    .large-container,
+    .container {
+        padding: 20px 2% 20px 15%;
+    }
+}
+
+@media (width<=400px) {
+
+    .large-container,
+    .container {
+        padding: 20px 2% 20px 17%;
+    }
+}
+
+@media (width<=350px) {
+
+    .large-container,
+    .container {
+        padding: 20px 2% 20px 18%;
+    }
+}
